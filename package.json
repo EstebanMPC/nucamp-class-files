@@ -1,0 +1,19 @@
+{
+  "name": "nucampsite",
+  "version": "1.0.0",
+  "description": "This is a fiction campsites review site Nucamp",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
