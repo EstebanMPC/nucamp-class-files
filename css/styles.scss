@@ -4,6 +4,7 @@ $color-pale: #cec8ff;
 $color-mid: #901cad;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #14a2b8;
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
@@ -55,4 +56,18 @@ header {
 
 .carousel-caption {
   background-color: $color-black-transparent;
+}
+
+#reserveModal {
+  .modal-header {
+    background-color: $color-teal;
+    color: #fff;
+  }
+}
+
+#loginModal {
+  .modal-header {
+    background-color: $color-mid;
+    color: #fff;
+  }
 }
